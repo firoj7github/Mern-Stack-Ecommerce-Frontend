@@ -1,0 +1,103 @@
+[
+    {
+        "id" : 1 ,
+        "name" : "Solo Pro Max",
+        "price" : "$220",
+        "description" : "Headphones let a single user listen to an audio source privately, in contrast to a loudspeaker, which emits sound into the open air for anyone nearby to hear.",
+        "quantity" : "2",
+        "img" : "https://www.itplus.com.bd/wp-content/uploads/2021/05/HyperX-Cloud-Alpha-Headphone.jpg"
+       ,
+        "supplaier" : "Apple"
+
+
+    },
+    {
+        "id" : 2 ,
+        "name" : "Defid Pro",
+        "price" : "$200",
+        "description" : "Headphones let a single user listen to an audio source privately, in contrast to a loudspeaker, which emits sound into the open air for anyone nearby to hear.",
+        "quantity" : "2",
+        "img" : "https://i5.walmartimages.com/asr/866f741b-5186-4862-827a-752a5c52ba8e.7a5ecdcbc86c863b3aa0ba059c49b8cf.jpeg",
+        "supplaier" : "Apple"
+
+
+    },
+    {
+        "id" : 3 ,
+        "name" : "Volgo G23",
+        "price" : "$312",
+        "description" : "Headphones let a single user listen to an audio source privately, in contrast to a loudspeaker, which emits sound into the open air for anyone nearby to hear.",
+        "quantity" : "2",
+        "img" : "https://gadgetpanel.com.bd/wp-content/uploads/a0e03f42-ada9-4b90-a4d6-bddb59695bbe_1.8fbf1e0437822d32bc4a871fa5b3481b-600x600.jpeg",
+        "supplaier" : "Apple"
+
+
+    },
+    {
+        "id" : 4 ,
+        "name" : "Nopid Max",
+        "price" : "$154",
+        "description" : "Headphones let a single user listen to an audio source privately, in contrast to a loudspeaker, which emits sound into the open air for anyone nearby to hear.",
+        "quantity" : "2",
+        "img" : "https://cf.shopee.com.my/file/f4177d6bf15b52fdd6b958b2d66a2916"
+        ,
+        "supplaier" : "Apple"
+
+
+    },
+    {
+        "id" : 5 ,
+        "name" : "Apple V3",
+        "price" : "$465",
+        "description" : "Headphones let a single user listen to an audio source privately, in contrast to a loudspeaker, which emits sound into the open air for anyone nearby to hear.",
+        "quantity" : "2",
+        "img" : "https://www.skyland.com.bd/wp-content/uploads/2021/03/hyperx-cloud-stinger-3.jpg",
+        "supplaier" : "Apple"
+
+
+    },
+    {
+        "id" : 6 ,
+        "name" : "Sony Pro Max",
+        "price" : "$359",
+        "description" : "Headphones let a single user listen to an audio source privately, in contrast to a loudspeaker, which emits sound into the open air for anyone nearby to hear.",
+        "quantity" : "2",
+        "img" : "https://www.penguin.com.bd/wp-content/uploads/2022/04/23_d2c430d9-7bb1-4e0a-b21c-f9962e1b13d0_5000x-300x300.png",
+        "supplaier" : "Apple"
+
+
+    },
+    {
+        "id" : 7 ,
+        "name" : "Solo T20 Max",
+        "price" : "$110",
+        "description" : "Headphones let a single user listen to an audio source privately, in contrast to a loudspeaker, which emits sound into the open air for anyone nearby to hear.",
+        "quantity" : "2",
+        "img" : "https://i5.walmartimages.com/asr/05ea9b4a-865b-42c2-aadd-b1c7f01feb79_1.426c44f2f5c0c548dc280110b10c2029.jpeg",
+        "supplaier" : "Apple"
+
+
+    },
+    {
+        "id" : 8 ,
+        "name" : "Dell C1",
+        "price" : "$265",
+        "description" : "Headphones let a single user listen to an audio source privately, in contrast to a loudspeaker, which emits sound into the open air for anyone nearby to hear.",
+        "quantity" : "2",
+        "img" : "https://ca.jbl.com/dw/image/v2/AAUJ_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwe4039e02/1.JBL_Quantum%20350%20Wireless_Product%20Image_Hero.jpg?sw=270&sh=330&sm=fit&sfrm=png",
+        "supplaier" : "Apple"
+
+
+    },
+    {
+        "id" : 9 ,
+        "name" : "Sony W2 Max",
+        "price" : "$190",
+        "description" : "Headphones let a single user listen to an audio source privately, in contrast to a loudspeaker, which emits sound into the open air for anyone nearby to hear.",
+        "quantity" : "2",
+        "img" : "https://media.istockphoto.com/photos/red-headphones-isolated-picture-id835148968?b=1&k=20&m=835148968&s=170667a&w=0&h=hXa9UiLeFASHfln_EJ2wSt3ddfcRIdg6BrBCLTow_Zs=",
+        "supplaier" : "Apple"
+
+
+    }
+]

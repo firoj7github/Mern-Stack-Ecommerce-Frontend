@@ -1,0 +1,58 @@
+.banner-all{
+    background: url(../../../image/lol.png);
+    width: 100%;
+    height: 570px;
+    margin-top: -5px;
+}
+.banner-part{
+    width: 550px;
+    height: 400px;
+    margin-left: 730px;
+    font-family: sans-serif;
+    padding-top: 125px;
+    
+  
+}
+.banner-part h2, p{
+   color: white; 
+   opacity: 80%;
+}
+.banner-part h1{
+    color: rgb(228, 33, 43);
+    font-size: 95px;
+    font-family: 'Arvo', serif;
+}
+.banner-part h1, h2{
+    margin: 0;
+}
+.banner-part h2{
+    font-size: 55px;
+    padding-left: 247px;
+    font-family: 'Poppins', sans-serif;
+}
+.banner-part p{
+    width: 480px;
+    padding-left: 50px;
+    padding-bottom: 7px;
+    opacity: 85%;
+    
+}
+.banner-part button{
+   background-color:rgb(228, 33, 43) ;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 17px;
+    color: white;
+    opacity: 90%;
+    border-radius: 12px;
+   margin-left: 324px;
+   font-weight: 500;
+
+}
+@media screen and (max-width : 576px) {
+    .banner-all{
+        width: 1400px;
+    }
+}

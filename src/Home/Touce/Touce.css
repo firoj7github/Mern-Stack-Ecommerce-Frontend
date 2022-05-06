@@ -1,0 +1,36 @@
+.touch-all{
+    width: 90%;
+    height: 250px;
+    background-color: black;
+    margin-left: 80px;
+    margin-bottom: 120px;
+    border-radius: 10px;
+}
+.touch-all h1{
+    color: white;
+    padding-top: 25px;
+}
+.touch-all button{
+    background-color:rgb(228, 33, 43) ;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 17px;
+    color: white;
+    opacity: 90%;
+    border-radius: 10px;
+   
+   font-weight: 500;
+   
+   margin-top: 10px;
+}
+.touch-all input{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}

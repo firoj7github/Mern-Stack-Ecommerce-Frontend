@@ -1,0 +1,32 @@
+.login-form{
+    width: 800px;
+    height: 300px;
+    background-color: rgb(247, 145, 108);
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.login-form h2{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.login-manage{
+    margin-top: 40px;
+}
+
+.login-manage input{
+    
+    display: block;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid lightslategray;
+   
+    
+   
+    
+}

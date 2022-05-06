@@ -1,0 +1,27 @@
+.manage-all{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.manage-title h5{
+    color: rgb(10, 2, 2);
+    font-size: 35px;
+}
+.manage-title button{
+    background-color:rgb(228, 33, 43) ;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 19px;
+    color: white;
+    opacity: 90%;
+    border-radius: 10px;
+   
+   font-weight: 500;
+   border: 1px solid white;
+   margin-top: 25px; 
+   margin-bottom: 50px; 
+}

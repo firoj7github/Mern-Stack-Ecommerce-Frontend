@@ -1,0 +1,15 @@
+.all button{
+    background-color: darkslategray;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 17px;
+    color: white;
+    opacity: 90%;
+    border-radius: 10px;
+   
+   font-weight: 500;
+   border: 1px solid white;
+   margin-top: 50px;
+}

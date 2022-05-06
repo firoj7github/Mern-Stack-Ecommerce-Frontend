@@ -1,0 +1,63 @@
+.design-all{
+    width: 100%;
+    height: 700px;
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   
+   
+}
+.design-img img{
+    width: 650px;
+    height: 700px;
+    margin-top: -70px;
+}
+.design-title{
+    width: 550px;
+    padding-top: 130px;
+    text-align: left;
+
+}
+.design-title h1, h2, h3{
+    margin: 0;
+    margin-left: 55px;
+}
+.design-title p{
+    color: black;
+    opacity: 100%;
+    margin-left: 55px;
+    margin-bottom: 10px;
+}
+.design-title h1{
+  font-size: 45px;  
+}
+.design-title h2{
+font-size: 43px;
+
+}
+.design-title h3{
+opacity: 80%;
+}
+.design-title button{
+    background-color:rgb(228, 33, 43) ;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 17px;
+    color: white;
+    opacity: 90%;
+    border-radius: 10px;
+   margin-left: 55px;
+   font-weight: 500;
+   border: 1px solid white;
+   margin-top: 10px;
+}
+@media screen and (max-width : 576px) {
+    .design-all{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        height: 100%;
+        width: 1400px;
+    }
+    
+}

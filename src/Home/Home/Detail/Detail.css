@@ -1,0 +1,35 @@
+.detail img{
+    width: 300px;
+    height: 250px;
+}
+.detail{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    margin: 15px;
+    text-align: left;
+    padding: 5px;
+    border-radius: 4px;
+}
+.detail p{
+    color: black;
+}
+.detail h1, p{
+    margin: 2px;
+}
+.detail h2{
+    margin-bottom: 10px;
+}
+.detail button{
+    background-color:rgb(228, 33, 43) ;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 17px;
+    color: white;
+    opacity: 90%;
+    border-radius: 10px;
+   
+   font-weight: 500;
+   border: 1px solid white;
+   margin-top: 10px;  
+}

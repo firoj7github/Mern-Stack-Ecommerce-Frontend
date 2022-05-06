@@ -1,0 +1,60 @@
+.side-all{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 550px;
+    padding-top: 120px;
+    margin-bottom: 50px;
+}
+.side-title{
+width: 520px;
+padding-top: 65px;
+padding-left: 80px;
+}
+.side-title h1, h4{
+    margin: 0;
+    text-align: left;
+}
+.side-title p{
+    color: black;
+    opacity: 100%;
+    text-align: left;
+}
+.side-title h1{
+    font-size: 45px;
+}
+.side-title h4{
+    font-size: 21px;
+    opacity: 80%;
+}
+.side-title button{
+    background-color:rgb(228, 33, 43) ;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 17px;
+    color: white;
+    opacity: 90%;
+    border-radius: 10px;
+   margin-left: -383px;
+   font-weight: 500;
+   border: 1px solid white;
+   margin-top: 10px;
+}
+.side-img img{
+width: 500px;
+height: 400px;
+border-radius: 5px;
+}
+
+@media screen and (max-width : 576px) {
+    .side-all{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 100%;
+        margin-left: 300px;
+        
+    }
+}
