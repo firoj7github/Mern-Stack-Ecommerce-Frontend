@@ -14,6 +14,8 @@ import RequireAuth from './Home/Login/RequireAuth/RequireAuth';
 
 import ManageInventoris from './Home/Home/ManagInventoris/ManageInventoris';
 import Header from './Share/Header/Header';
+import AddItem from './Home/AddItem/AddItem';
+import MyItem from './Home/MyItem/MyItem';
 
 function App() {
   return (
@@ -30,6 +32,16 @@ function App() {
        <Route path='/manageInventoris' element={
          <RequireAuth>
            <ManageInventoris></ManageInventoris>
+         </RequireAuth>
+       }></Route>
+       <Route path='/addItem' element={
+         <RequireAuth>
+           <AddItem></AddItem>
+         </RequireAuth>
+       }></Route>
+       <Route path='/myItem' element={
+         <RequireAuth>
+           <MyItem></MyItem>
          </RequireAuth>
        }></Route>
        

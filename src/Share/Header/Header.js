@@ -20,6 +20,14 @@ const Header = () => {
             <div className='header-part'>
             <Link to="/">Home</Link> 
            <Link to="/blog">Blog</Link> 
+           { 
+             user && <>
+             <Link to="/manageInventoris">Manage Item</Link>
+             <Link to="/addItem">Add Item</Link>
+             <Link to="/myItem">My Item</Link>
+             </>
+           
+           }
            {user ? 
            <button onClick={handleSignout}>signout</button> 
            :

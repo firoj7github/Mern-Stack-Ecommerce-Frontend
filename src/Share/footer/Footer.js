@@ -21,7 +21,11 @@ const Footer = () => {
              <p>Dhaka Office</p>
              </div> 
          <div className='footer-3'>
-             <h3>Follow Us</h3></div> 
+             <h3>Follow Us</h3>
+             <div>
+                 <div></div>
+             </div>
+             </div> 
           
         </div>
     );

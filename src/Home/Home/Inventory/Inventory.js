@@ -5,7 +5,7 @@ import './Inventory.css'
 const Inventory = () => {
     const [services, setServices]= useState([]);
     useEffect(()=>{
-        fetch('service.json')
+        fetch('http://localhost:5000/service')
         .then(res=> res.json())
         .then(data => setServices(data));
     },[])
@@ -15,7 +15,7 @@ const Inventory = () => {
             <h3>Find Your Color</h3>
             <div className='inventory-all'>
             {
-                services.slice(0, 6).map(service=> <Detail key={service.id} service={service}></Detail>)
+                services.slice(0, 6).map(service=> <Detail key={service._id} service={service}></Detail>)
             }
         </div>
         </div>

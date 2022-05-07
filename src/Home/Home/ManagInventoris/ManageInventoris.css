@@ -4,6 +4,7 @@
     grid-template-columns: repeat(3, 1fr);
     margin-left: 130px;
     margin-top: 50px;
+   
 }
 .manage-title h5{
     color: rgb(10, 2, 2);
@@ -24,4 +25,25 @@
    border: 1px solid white;
    margin-top: 25px; 
    margin-bottom: 50px; 
+}
+.detail img{
+    width: 300px;
+    height: 250px;
+}
+.detail{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    margin: 15px;
+    text-align: left;
+    padding: 5px;
+    border-radius: 4px;
+    
+}
+.detail p{
+    color: black;
+}
+.detail h1, p{
+    margin: 2px;
+}
+.detail h2{
+    margin-bottom: 10px;
 }
