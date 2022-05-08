@@ -6,8 +6,13 @@
    background-color: black;
 }
 .header-part{
-    margin-left: 670px;
+    margin-left: 700px;
     
+}
+.signout{
+    background-color:rgb(228, 33, 43) ;
+    color: white;
+    border-radius: 4px;
 }
 .header-part a{
     color: rgb(240, 238, 235);

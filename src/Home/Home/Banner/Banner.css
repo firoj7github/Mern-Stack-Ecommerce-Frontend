@@ -53,6 +53,10 @@
 }
 @media screen and (max-width : 576px) {
     .banner-all{
-        width: 1400px;
+        width: 550px;
+    }
+    .banner-part{
+        margin-left: 10px;
+       
     }
 }

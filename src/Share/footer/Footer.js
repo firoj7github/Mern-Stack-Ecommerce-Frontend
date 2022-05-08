@@ -21,7 +21,7 @@ const Footer = () => {
          <div className='footer-3'>
              <h2>Contact Us</h2>
              <p>01845126598</p>
-             <p>01943126400</p>
+             <p>01320728546</p>
              <p>01741236901</p>
              
             

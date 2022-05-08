@@ -57,8 +57,13 @@ margin-left: 55px;
     .design-all{
         display: grid;
         grid-template-columns: repeat(1, 1fr); 
-        height: 100%;
-        width: 1400px;
+       height: 100%;
     }
-    
+    .design-img img{
+        width: 500px;
+        height: 600px;
+        padding-top: 100px;
+        
+    }
+   
 }

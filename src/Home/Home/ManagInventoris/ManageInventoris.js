@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Manage from '../Manage/Manage';
+
 import './ManageInventoris.css'
 
 const ManageInventoris = () => {

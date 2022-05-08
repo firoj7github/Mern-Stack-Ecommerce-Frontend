@@ -54,17 +54,12 @@
 }
 @media screen and (max-width : 576px) {
     .feature-all{
-        width: 1400px;
+        
        height: 100%;
-        background-color: rgb(2, 1, 1);
+        
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-bottom: 70px;
+        
     }
-    .feature-title{
-        margin-left: 600px;
-    }
-    .feature-img2 img{
-        margin-right: 350px;
-    }
+    
 }

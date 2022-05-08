@@ -14,10 +14,12 @@
 .footer-1 h2{
     color: rgb(235, 134, 97);
     padding-top: 15px;
+    margin-bottom: 5px;
 }
 .footer-2 h2{
     color: rgb(235, 134, 97);
     padding-top: 15px;
+    margin-bottom: 5px;
 }
 .footer-2 p{
     margin-left: 65px;
@@ -26,10 +28,22 @@
 .footer-3 h2{
     color: rgb(235, 134, 97);
     padding-top: 15px;
+    margin-bottom: 5px;
 }
 .fa-brands {
     font-size: 20px;
 }
 .footer-3 p{
     margin-left: 60px;
+}
+@media screen and (max-width : 576px) {
+    .footer-all{
+        
+        display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 100%;
+    }
+    .footer-1 p{
+        margin-left: 120px;
+    }
 }

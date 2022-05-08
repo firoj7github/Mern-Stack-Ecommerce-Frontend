@@ -25,7 +25,8 @@ const AddItem = () => {
       <input placeholder='name' {...register("name")} />
       <input placeholder='description' {...register("description")} />
       <input placeholder='price' type="number" {...register("price")} />
-      <input placeholder='photo url' type="text" {...register("photo")} />
+      <input placeholder='quantity' type="number" {...register("quantity")} />
+      <input placeholder='photo url' type="text" {...register("img")} />
       <br/>
       <input type="submit" value="Add Item" />
     </form>

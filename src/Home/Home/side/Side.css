@@ -50,11 +50,12 @@ border-radius: 5px;
 
 @media screen and (max-width : 576px) {
     .side-all{
-        width: 100%;
+        
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         height: 100%;
-        margin-left: 300px;
+        
         
     }
+    
 }

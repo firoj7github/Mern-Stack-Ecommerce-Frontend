@@ -4,6 +4,7 @@ import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import './Login.css'
 import Social from './Social/Social';
+import Loading from '../../Share/Loading/Loading';
 
 const Login = () => {
     const [
@@ -27,11 +28,14 @@ const Login = () => {
     if(user){
         navigate(from, {repalce: true});
     }
+    if(user){
+      return <Loading></Loading>
+    }
     
    
     const handleLogin = event => {
         event.preventDefault();
-        console.log(event.target.email);
+        
         const email = event.target.email.value;
         const password = event.target.password.value;
         signInWithEmailAndPassword(email, password);
