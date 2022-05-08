@@ -6,22 +6,17 @@ const Footer = () => {
     return (
         <div className='footer-all'>
          <div className='footer-1'>
-             <h3>Help & Support</h3>
-             <p>Contact Us</p>
-             <p>Contact Us</p>
-             <p>Contact Us</p>
-             <p>Contact Us</p>
+             <h2>Help & Support</h2>
+             <p>This site is here to help. Discover our office locations and different ways to contact us everytime.</p>
              
              </div> 
          <div className='footer-2'>
-             <h3>Our Location</h3>
+             <h2>Our Location</h2>
              <p>Dhaka Office</p>
-             <p>Dhaka Office</p>
-             <p>Dhaka Office</p>
-             <p>Dhaka Office</p>
+             <p>1200, Savar Dhaka</p>
              </div> 
          <div className='footer-3'>
-             <h3>Follow Us</h3>
+             <h2>Follow Us</h2>
              <div>
                  <div></div>
              </div>

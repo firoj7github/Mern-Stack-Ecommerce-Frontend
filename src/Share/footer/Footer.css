@@ -5,3 +5,25 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+.footer-1 p{
+    width: 350px;
+    opacity: 90%;
+    margin-left: 70px;
+    padding-top: 5px;
+}
+.footer-1 h2{
+    color: rgb(235, 134, 97);
+    padding-top: 15px;
+}
+.footer-2 h2{
+    color: rgb(235, 134, 97);
+    padding-top: 15px;
+}
+.footer-2 p{
+    margin-left: 65px;
+    opacity: 90%;
+}
+.footer-3 h2{
+    color: rgb(235, 134, 97);
+    padding-top: 15px;
+}
