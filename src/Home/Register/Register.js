@@ -4,6 +4,7 @@ import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 
 import { Link, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
+import Loading from '../../Share/Loading/Loading';
 
 
 
@@ -15,11 +16,14 @@ const Register = () => {
     user,
     loading,
     error,
-  ] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification: true});
+  ] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification:true});
 
   const navigate =useNavigate();
   if(user){
     navigate('/');
+  }
+  if(loading){
+    return <Loading></Loading>
   }
   const handleFirebase = async(event) =>{
    event.preventDefault();

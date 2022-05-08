@@ -16,6 +16,7 @@ import ManageInventoris from './Home/Home/ManagInventoris/ManageInventoris';
 import Header from './Share/Header/Header';
 import AddItem from './Home/AddItem/AddItem';
 import MyItem from './Home/MyItem/MyItem';
+import NotFound from './Home/NotFound/NotFound';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/login'
          element={<Login></Login>}></Route>
+         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       
     </div>

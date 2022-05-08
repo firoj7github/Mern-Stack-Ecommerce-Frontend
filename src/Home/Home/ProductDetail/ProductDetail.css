@@ -13,3 +13,15 @@
    border: 1px solid white;
    margin-top: 50px;
 }
+.quantity{
+    width: 1000px;
+    height: 300px;
+    background-color: coral;
+    margin-top: 80px;
+    margin-left: 160px;
+    border-radius: 8px;
+}
+.quantity h2{
+    padding-top: 15px;
+    
+}
