@@ -16,7 +16,7 @@ const Detail = ({service}) => {
             <h2>{price}</h2>
             <h1>{name}</h1>
             <p>Quantity : {quantity}</p>
-            <p>{supplaier}</p>
+            <p>Supplaier :{supplaier}</p>
             <p>{description}</p>
             
            

@@ -15,7 +15,7 @@
 }
 .banner-part h2, p{
    color: white; 
-   opacity: 80%;
+   opacity: 90%;
 }
 .banner-part h1{
     color: rgb(228, 33, 43);
@@ -27,13 +27,13 @@
 }
 .banner-part h2{
     font-size: 55px;
-    padding-left: 247px;
+    padding-left: 200px;
     font-family: 'Poppins', sans-serif;
 }
 .banner-part p{
     width: 480px;
     padding-left: 50px;
-    padding-bottom: 7px;
+    padding-bottom: 18px;
     opacity: 85%;
     
 }
@@ -47,7 +47,7 @@
     color: white;
     opacity: 90%;
     border-radius: 12px;
-   margin-left: 324px;
+   margin-left: 326px;
    font-weight: 500;
 
 }
