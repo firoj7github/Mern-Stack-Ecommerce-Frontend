@@ -1,4 +1,4 @@
-Headphone Wirehouse
+Headphone Collection
 
 Server side link : https://glacial-brushlands-40139.herokuapp.com/
 

@@ -45,7 +45,7 @@ const Register = () => {
                 placeholder='Enter your password'  />
                 <input  type="submit" value="Register" />
             </form>
-           <h4>Already have an account? <Link to='/Login' className='text-danger pe-auto text-decoration-none' >Plz Login</Link></h4>  
+           <h4 className='tost'>Already have an account? <Link to='/Login' className='text-danger pe-auto  text-decoration-none' >Plz Login</Link></h4>  
         </div>
 
     );
