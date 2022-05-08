@@ -1,10 +1,18 @@
 Headphone Wirehouse
 
+Server side link : https://glacial-brushlands-40139.herokuapp.com/
+
 Stack overfolow link :https://stackoverflow.com/questions/72157598/is-there-a-storage-limit-in-github-repository-storage
 
 Description : This is my wirehouse website.It is very frindly site for you.This site made by React,Firebase,React router,React Bootstrap, CSS3 etc.
 
-* Wirehouse site
+* Mongodb Data Connected
+* Login Logout System
+* Add Item System
+* Insert Item System
+* Delete Item System
+* Delevered System
+
 
 
 
