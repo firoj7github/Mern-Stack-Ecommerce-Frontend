@@ -1,3 +1,6 @@
+import { faFaceKissBeam } from '@fortawesome/free-regular-svg-icons';
+import { faAppleAlt, faWheatAlt } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Footer.css'
 
@@ -16,10 +19,12 @@ const Footer = () => {
              <p>1200, Savar Dhaka</p>
              </div> 
          <div className='footer-3'>
-             <h2>Follow Us</h2>
-             <div>
-                 <div></div>
-             </div>
+             <h2>Contact Us</h2>
+             <p>01845126598</p>
+             <p>01943126400</p>
+             <p>01741236901</p>
+             
+            
              </div> 
           
         </div>
